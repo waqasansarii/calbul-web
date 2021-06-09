@@ -1,0 +1,62 @@
+.wewillHelp_sub_div{
+    width: 72%;
+    margin: 50px auto;
+}
+.wewillHelp_sub_div h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.wewillHelp_card_sec_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.wewillHelp_img_sec{
+    width: 50%;
+}
+.wewillHelp_img_sec img{
+    width: 100%;
+}
+.wewillHelp_infoSec{
+    width: 38%;
+}
+.wewillHelp_infoSec p{
+    margin-top: 35px;
+}
+.wewillHelp_link{
+    display: inline-block;
+    margin-top: 35px;
+    text-decoration: none;
+}
+@media screen and (max-width:1100px){
+    .wewillHelp_sub_div{
+        width: 95%;
+    }
+    .wewillHelp_card_sec_div{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:600px){
+    .wewillHelp_card_sec_div{
+        flex-direction: column;
+    }
+    .wewillHelp_sub_div{
+        width: 90%;
+    }
+    .wewillHelp_img_sec{
+        width: 100%;
+    }
+    .wewillHelp_infoSec{
+        width: 95%;
+        margin-top: 20px;
+    }
+    .wewillHelp_sub_div h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:330px){
+    .wewillHelp_sub_div h1{
+        font-size: 2.2rem;
+    }
+}

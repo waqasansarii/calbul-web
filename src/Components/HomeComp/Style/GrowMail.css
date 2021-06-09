@@ -1,0 +1,27 @@
+.grow_mailChimp_container{
+    background-color: #f6f6f4;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+.grow_mailChimp_div>p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.grow_mailChimp_div>h1{
+    font-size: 3rem;
+}
+.grow_mail_tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 30px auto;
+    
+}
+.grow_mail_tags img{
+    width: 50%;
+}
+.grow_mail_tags p{
+    margin-top: 20px;
+}

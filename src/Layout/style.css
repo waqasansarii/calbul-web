@@ -1,0 +1,17 @@
+.nav_container{
+    position: sticky;
+    top: 0px;
+    /* background-color: gainsboro; */
+    background-color: green;
+}
+.sticky{
+    background-color: gainsboro;
+}
+.custom_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_main_nav:hover{
+    background-color: gainsboro;
+}
