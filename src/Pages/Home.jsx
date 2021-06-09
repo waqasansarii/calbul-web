@@ -17,10 +17,10 @@ const Home = () => {
       <GrowMailChimp />
       <PushingForword />
       <ComesTogether />
-      <img
+      {/* <img
         src="https://eep.io/images/yzco4xsimv0y/1NIsKMRR8bNuZlQVfWPePQ/4c81beeea56054b45be98988dcb359a8/ILLO_Hero_Transactional-Target-1520.png?w=500&fm=webp&q=80"
         alt="..."
-      />
+      /> */}
     </div>
   );
 };
