@@ -69,3 +69,35 @@
 .me-auto{
     margin-right: 0px !important;
 }
+
+
+/* footer css  */
+
+.footer_container{
+    background-color: gainsboro;
+    padding: 7rem 0px;
+}
+.footer_layout{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.f_sec_ul{
+    margin: 0px ;
+    padding: 0px;
+    list-style: none;
+    margin-top: 20px;
+}
+.f_links{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+.f_links:hover{
+    text-decoration: underline;
+}
+.f_sec_ul>li{
+    margin-top: 10px;
+}

@@ -1,0 +1,217 @@
+.software_comp_container{
+    background-color: #f6f6f4;
+   padding-top: 7rem;
+   padding-bottom: 8rem;
+}
+.software_content{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.software_doc_img{
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+}
+.software_doc_img>img{
+    width: 40%;
+}
+
+.resources_head{
+    /* margin-top: 3rem; */
+    width: 670px;
+    text-align: center;
+    margin: 5rem auto;
+}
+.resources_head>h1{
+    font-size: 3rem;
+}
+.resources_sections{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.resource_sec1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.rerc_sec1_info{
+    background-color: #d8eacc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 0px 10rem; */
+    width: 65%;
+}
+.rerc_sec1_info>div{
+    width: 400px;
+}
+.rerc_sec1_info>div>p{
+    margin-top: 20px;
+}
+.card_sec_resources{
+    width: 340px;
+    margin-left: 15px;
+}
+.card_sec_resources>img{
+    width: 100%;
+
+}
+.r_sec_card_body{
+    padding: 15px;
+    border: 1px solid black;
+}
+.r_sec_card_body>div{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+.r_sec_card_body>div>span{
+    font-weight: bold;
+}
+.r_sec_card_body>a{
+    text-decoration: none;
+}
+.r_sec_2{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 7rem;
+}
+.sec2_info_busns{
+    display: flex;
+    align-items: center;
+    background-color: #fdece5;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.sec2_card_div{
+    background-image: url('https://eep.io/images/yzco4xsimv0y/BReNgBS5yKvZWRHihQG8f/6d75f3d62df93067535426019e42cef4/Homepage-Grid-5.18-courier.jpg?w=780');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   object-fit: cover;
+    color: white;
+    padding: 20px;
+
+}
+.sec2_card_div img{
+    width: 180px;
+}
+
+.sec2card_body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 80px;
+    width: 300px;
+}
+.sec2card_body h4{
+    font-size: 2rem;
+}
+.sec2_card_div a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.bsns_expnd_img>img{
+    width: 100%;
+}
+.bsns_expnd_info{
+    width: 300px;
+    margin-left: 15px;
+}
+.bsns_expnd_info>a{
+    color: black;
+    text-decoration: none;
+}
+.lets_do_container{
+    background-color: #cdf9ee;
+    padding: 7rem 0rem;
+ }
+ .letsdo_content{
+     width: 400px;
+     margin: 0px auto;
+     text-align: center;
+ }
+ .letsdo_content>h1{
+     font-size: 3rem;
+ }
+ .letsdo_content>p{
+     font-size: 1.5rem;
+     margin-top: 20px;
+     line-height: 2rem;
+ }
+@media screen and (max-width:1100px){
+    .resource_sec1,.r_sec_2,.sec2_info_busns{
+        flex-direction: column;
+    }
+    .sec2_info_busns{
+        align-items: inherit;
+    }
+    .card_sec_resources{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .resources_head{
+        width: 500px;
+    }
+    .rerc_sec1_info{
+        width: 100%;
+        padding: 3rem 0px;
+        /* text-align: start; */
+    }
+    .rerc_sec1_info>div{
+        width: 80%;
+    }
+    .sec2_card_div{
+        background-size: cover;
+    }
+    .sec2_info_busns{
+        margin: 15px 0px;
+        padding-bottom: 30px;
+        /* margin-bottom: 30px; */
+    }
+    .bsns_expnd_info{
+        width: 90%;
+    }
+}
+@media screen and (max-width:800px){
+    .software_doc_img{
+        margin-top: -140px;
+    }
+}
+@media screen and (max-width:600px){
+    .software_content{
+        width: 90%;
+    }
+    .software_doc_img{
+        margin-top: -150px;
+    }
+    .software_doc_img>img{
+        width: 60%;
+    }
+    .resources_sections{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .resources_head{
+        width: 90%;
+    }
+    .resources_head>h1{
+        font-size: 2.3rem;
+    }
+    .sec2card_body{
+        width:100% ;
+    }
+}
+@media screen and (max-width:400px){
+    .resources_head>h1{
+        font-size: 2rem;
+    }
+}

@@ -33,7 +33,7 @@
 .doit_mailChimp_info_div p{
     margin-top: 25px;
 }
-.doit_mailChimp_info_div button{
+.custm_btn {
     margin-top: 25px;
     color: #007c89;
     background-color: transparent;

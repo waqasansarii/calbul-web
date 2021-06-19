@@ -5,11 +5,14 @@ const GrowMailChimp = () => {
   return (
     <div className="grow_mailChimp_container">
       <div className="grow_mailChimp_div">
+        <div>
+
         <h1>Grow with Mailchimp</h1>
         <p>
           Our marketing platform helps brands like these build their thing and
           keep it growing.
         </p>
+        </div>
         <div className="grow_mail_tags">
           <div>
             <img

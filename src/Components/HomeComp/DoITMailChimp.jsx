@@ -30,7 +30,7 @@ const DoITMailChimp = () => {
                 website to sell products or take appointments, all with built-in
                 marketing tools to help you boost sales and find fans.
               </p>
-              <button>Website and stores</button>
+              <button className='custm_btn'>Website and stores</button>
             </div>
             <div
               className="doit_mail_chimp_img_div"
@@ -52,7 +52,7 @@ const DoITMailChimp = () => {
                 Send the right messages on all the right channels. Build emails,
                 social ads, landing pages, postcards, and more from one place.
               </p>
-              <button>Marketing campaigns</button>
+              <button className='custm_btn'>Marketing campaigns</button>
             </div>
             <div
               className="doit_mail_chimp_img_div"

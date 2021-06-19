@@ -4,11 +4,11 @@
     padding-bottom: 7rem;
     text-align: center;
 }
-.grow_mailChimp_div>p{
+.grow_mailChimp_div>div>p{
     margin-top: 20px;
     font-size: 1.3rem;
 }
-.grow_mailChimp_div>h1{
+.grow_mailChimp_div>div>h1{
     font-size: 3rem;
 }
 .grow_mail_tags{
@@ -17,7 +17,6 @@
     align-items: center;
     width: 75%;
     margin: 30px auto;
-    
 }
 .grow_mail_tags img{
     width: 50%;
@@ -25,3 +24,20 @@
 .grow_mail_tags p{
     margin-top: 20px;
 }
+@media screen and (max-width: 600px) {
+    .grow_mail_tags {
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .grow_mailChimp_div>div{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .grow_mailChimp_div>div>h1{
+        font-size: 2.4rem;
+    }
+    .grow_mailChimp_div>div>p{
+        font-size: 1rem;
+    }
+  }
